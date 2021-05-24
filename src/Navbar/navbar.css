@@ -1,0 +1,45 @@
+.navbar-img {
+    height: 40px;
+    width: 190px;
+    margin-left: 50px;
+}
+
+.dropdown-menu{
+    border-width: 5px 0px 5px 0px;
+    border-bottom-color: #FF7700;
+    border-top-color: #FF7700;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Avenir';
+    color:black;
+    font-size: 16px;
+}
+
+#midNav{
+    margin:auto;
+    font-family: 'Avenir';
+    color:black;
+    font-size: 17px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF7700;
+    border-color: #FF7700; 
+    font-family: calibri;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #e4b276;
+    border-color: #e4b276; 
+} 
+
+.btn-dark {
+    font-family: calibri;
+}
+
+button#nav-btn {
+    font-weight: 600;
+    margin: 10px;
+}
