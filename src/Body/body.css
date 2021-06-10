@@ -1,8 +1,16 @@
 .messageHeader{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     font-family: Montserrat;
     text-align: center;
+}
+
+.subHeader{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Montserrat;
+    text-align: center;
+    padding-bottom: 20px;
 }
 .message{
     font-family: Arial;
@@ -45,5 +53,16 @@
 }
 
 .mainbody{
-    padding-bottom: 210px;
+    padding-bottom: 200px;
+}
+
+.highlited-Orange{
+    color: #FF7700;
+    font-weight: 900;
+    text-shadow: 1px 0px black;
+}
+
+.highlited-black{
+    font-weight: 900;
+    text-shadow: 1px 0px black;
 }

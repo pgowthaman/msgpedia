@@ -9,3 +9,7 @@ svg{
 .carousalTop{
     padding-bottom: 50px;
 }
+
+.carouselComponent{
+    z-index: -1;
+}

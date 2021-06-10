@@ -7,7 +7,7 @@ class Animatedicons extends Component {
   render() {
     
     return (
-      <Particles params = {ParticleConfig} />
+      <Particles params = {ParticleConfig} /> 
     )
   }
 }

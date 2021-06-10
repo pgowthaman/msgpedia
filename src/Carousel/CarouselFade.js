@@ -6,10 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 class CarouselFade extends Component {
 
     render() {
-        const divStyle = {
-            height: "75px",
-            width: "100%",
-        }
+        
         let style = {
             display:this.props.display
         }
@@ -17,9 +14,9 @@ class CarouselFade extends Component {
         return (
             <div class="carouselfade" style={style}>
                 <Container>
-                    <Row>
-                        <Col>
-                            <Carousel divStyle={divStyle} delay={5000} mode={"fade"}>
+                    <Row >
+                        <Col >
+                            <Carousel delay={5000} mode={"fade"}>
                                 <img src='clientlogos/Agam.png' class="caroselimg" alt="asdada" style={{ width: "100px", height: "85px" }} />
                                 <img src='clientlogos/JNTextiles.png' class="caroselimg" style={{ width: "100px", height: "85px" }} alt="asdada" />
                                 <img src='clientlogos/SunEdison.png' class="caroselimg" style={{ width: "150px", height: "70px", paddingTop: "15px" }} alt="asdada" />
@@ -27,7 +24,7 @@ class CarouselFade extends Component {
 
                             </Carousel>
                         </Col>
-                        <Col>
+                        <Col >
                             <Carousel delay={5000} mode={"fade"}>
                                 <img src='clientlogos/SunEdison.png' style={{ width: "150px", height: "70px", paddingTop: "15px" }} class="caroselimg" alt="asdada" />
                                 <img src='clientlogos/Toyota.png' style={{ width: "100px", height: "85px" }} class="caroselimg" alt="asdada" />
@@ -36,7 +33,7 @@ class CarouselFade extends Component {
 
                             </Carousel>
                         </Col>
-                        <Col>
+                        <Col >
                             <Carousel delay={5000} mode={"fade"}>
                                 <img src='clientlogos/AnnaiJewellers.png' style={{ width: "150px", height: "85px" }} class="caroselimg" alt="asdada" />
                                 <img src='clientlogos/KalisInfotech.png' style={{ width: "150px", height: "70px", paddingTop: "15px" }} class="caroselimg" alt="asdada" />
@@ -45,7 +42,7 @@ class CarouselFade extends Component {
 
                             </Carousel>
                         </Col>
-                        <Col>
+                        <Col >
                             <Carousel delay={5000} mode={"fade"}>
                                 <img src='clientlogos/foodpub.png' style={{ width: "150px", height: "70px", paddingTop: "15px" }} class="caroselimg" alt="asdada" />
                                 <img src='clientlogos/Groot1.png' style={{ width: "150px", height: "70px", paddingTop: "15px" }} class="caroselimg" alt="asdada" />
@@ -54,7 +51,7 @@ class CarouselFade extends Component {
 
                             </Carousel>
                         </Col>
-                        <Col>
+                        <Col >
                             <Carousel delay={5000} mode={"fade"}>
                                 <img src='clientlogos/KongunadHospitals.png' style={{ width: "100px", height: "85px" }} class="caroselimg" alt="asdada" />
                                 <img src='clientlogos/KRJewels.png' style={{ width: "100px", height: "85px" }} class="caroselimg" alt="asdada" />

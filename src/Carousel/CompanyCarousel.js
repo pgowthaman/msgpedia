@@ -42,7 +42,7 @@ class CompanyCarousel extends Component {
             windowLarge = "block";
         }
 
-        return (<div>
+        return (<div class ="carouselComponent">
             <div class="messageHeader carousalTop">Trusted by <span class="highlighted-text">10,000+</span> businesses</div>
             <CarouselFadeSmall display ={windowSmall}/>
             <CarouselFadeMob display ={mobDisplay}/>

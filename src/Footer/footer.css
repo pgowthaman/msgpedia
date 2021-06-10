@@ -1,0 +1,13 @@
+footer{
+    font-family: Ubuntu;
+    background-color: #190138;
+    color: honeydew;
+}
+
+#footer-link{
+    color: honeydew !important;
+}
+
+#footer{
+    padding-top: 20px;
+}

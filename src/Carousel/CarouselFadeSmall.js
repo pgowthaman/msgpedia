@@ -10,17 +10,14 @@ class CarouselFadeSmall extends Component {
         let style = {
             display:this.props.display
         }
-        const divStyle = {
-            height: "75px",
-            width: "100%",
-        }
+    
 
         return(
             <div class="carouselfade" style = {style}>
                  <Container>
                     <Row>
                         <Col>
-                            <Carousel divStyle={divStyle} delay={5000} mode={"fade"}>
+                            <Carousel delay={5000} mode={"fade"}>
                                 <img src='clientlogos/Agam.png' class="caroselimg" alt="asdada" style={{ width: "100px", height: "85px" }} />
                                 <img src='clientlogos/JNTextiles.png' class="caroselimg" style={{ width: "100px", height: "85px" }} alt="asdada" />
                                 <img src='clientlogos/SunEdison.png' class="caroselimg" style={{ width: "150px", height: "70px", paddingTop: "15px" }} alt="asdada" />

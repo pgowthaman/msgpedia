@@ -10,8 +10,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
   <Header />
-  <Body />
-  <CompanyCarousel />
   <Footer />
   </React.StrictMode>,
   document.getElementById('root')
