@@ -6,6 +6,16 @@ import "./body.css";
 class Body extends Component {
 
     render() {
+
+        let buttonStyle = {
+            width : "160px",
+            height : "40px",
+            borderRadius: "12px",
+            color : "white",
+            backgroundColor : "#FF7700",
+            border:"none"
+        }
+
         return (
             <>
              <div class="mainbody">
@@ -17,37 +27,31 @@ class Body extends Component {
                 <Form >
                     <Form.Row  className="justify-content-center align-items-center">
                         <Col xs="auto">
-                            <Form.Label htmlFor="inlineFormInput" srOnly>
-                                Name
-                             </Form.Label>
+                          
                             <Form.Control
-                                className="mb-2"
                                 id="inlineFormInput"
                                 placeholder="Name"
                             />
                         </Col>
                         <Col xs="auto">
-                            <Form.Label htmlFor="inlineFormInput" srOnly>
-                                Mobile
-                             </Form.Label>
+                            
                             <Form.Control
-                                className="mb-2"
+                                
                                 id="inlineFormInput"
                                 placeholder="Mobile"
                             />
                         </Col>
                         <Col xs="auto">
-                            <Form.Label htmlFor="inlineFormInput" srOnly>
-                                Email
-                             </Form.Label>
                             <Form.Control
-                                className="mb-2"
                                 id="inlineFormInput"
                                 placeholder="Email"
                             />
-                        </Col>
+                        </Col> 
                         <Col xs="auto">
-                        <button type="submit" class = "sendbutton"><img src="/msgpediapics/sendmail.png" alt="" class="sendimg"/></button>
+                        <Button type="submit" class="btn" id="sendButton">
+                        {/* <img src="/msgpediapics/SendMsg.jpg"  id="sendButtonImg" alt="" /> */}
+                            Free Trial
+                            </Button>
                         </Col>
                     </Form.Row>
                 </Form>

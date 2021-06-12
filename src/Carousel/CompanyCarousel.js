@@ -43,7 +43,7 @@ class CompanyCarousel extends Component {
         }
 
         return (<div class ="carouselComponent">
-            <div class="messageHeader carousalTop">Trusted by <span class="highlighted-text">10,000+</span> businesses</div>
+            <div class="messageHeader carousalTop">Honoured by <span class="highlighted-text">10,000+</span> businesses</div>
             <CarouselFadeSmall display ={windowSmall}/>
             <CarouselFadeMob display ={mobDisplay}/>
             <CarouselFade display ={windowLarge}/>

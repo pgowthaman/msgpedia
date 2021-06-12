@@ -9,6 +9,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Solutions from "../Components/Solution";
 import TransactionSMS from "../Components/TransactionSMS";
 import Pricing from "../Components/Pricing";
+import ChooseUs from "../Components/ChooseUs";
+import SpecialFeatures from "../Components/SpecialFeatures";
+import WeHave from "../Components/WeHave";
+
 
 class NavBar extends Component {
 
@@ -60,7 +64,7 @@ class NavBar extends Component {
             </Navbar>
             <Body />
             <CompanyCarousel />
-            <Element name="about" className="element">
+            {/* <Element name="about" className="element">
                 <About />
             </Element>
             <Element name="solutions" className="element">
@@ -68,7 +72,10 @@ class NavBar extends Component {
             </Element>
             <Element name="pricing" className="element">
                <Pricing />
-            </Element>
+            </Element> */}
+            <ChooseUs />
+            <SpecialFeatures/>
+            <WeHave />
         </>
         )
     }
