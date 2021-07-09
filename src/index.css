@@ -1,3 +1,19 @@
-#root{
+/* #root{
   text-align: center;
+} */
+
+._34Oew{
+  float : right;
+  right : 40px !important;
+  bottom: 32px !important;
+  /* left : auto !important; */
+}
+
+._34Oew ._1jTF6{
+  right : 0px !important;
+} 
+
+._34Oew ._1zufg img, ._34Oew ._1zufg svg {
+    width: 60% !important;
+    height: 60% !important;
 }

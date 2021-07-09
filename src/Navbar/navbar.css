@@ -10,41 +10,38 @@
 
 .dropdown-menu{
     border-width: 5px 0px 5px 0px;
-    border-bottom-color: #FF7700;
-    border-top-color: #FF7700;
+    border-bottom-color: red;
+    border-top-color: red;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-family: 'Ubuntu';
+    font-family: Poppins;
     color:black;
     font-size: 16px;
 }
 
 #midNav{
     margin:auto;
-    font-family: 'Ubuntu';
+    font-family: Poppins;
     color:black;
     font-size: 17px;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #FF7700;
-    border-color: #FF7700; 
-    font-family: calibri;
+    width : 130px;
+    border-radius: 12px;
+    background: transparent;
+    border: 1.2px solid black;
+    font-weight: 700;
+    color: black;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #e4b276;
-    border-color: #e4b276; 
     box-shadow: none;
+    background-color: black;
+    border-color:black;
 } 
 
 .btn-dark {
-    font-family: calibri;
-}
-
-button#nav-btn {
-    font-weight: 600;
-    margin: 10px;
+    font-family: Poppins;
 }

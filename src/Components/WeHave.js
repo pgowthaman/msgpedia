@@ -60,7 +60,8 @@ class WeHave extends Component {
             fontFamily: "Ubuntu",
             paddingBottom: "20px",
             marginBottom: "20px",
-            marginRight: "20px"
+            marginRight: "20px",
+            textAlign : "center"
         }
     
         let cardTitleStyle = {
@@ -88,8 +89,8 @@ class WeHave extends Component {
                     <Col xs="auto" >
                         <Card style={cardStyle}>
                             <Card.Body>
-                            <Card.Title class="cardTitle"> <img src="Contentpics/serverUp.png" style={imgStyle} alt="" /></Card.Title>
-                            <Card.Title class="cardSubtitle" style={cardSubtitleStyle}>Happy customers</Card.Title>
+                            <Card.Title class="cardTitle"> <img src="Contentpics/Happycustomers.png" style={imgStyle} alt="" /></Card.Title>
+                            <Card.Title class="cardSubtitle" style={cardSubtitleStyle}>Happy Customers</Card.Title>
                                 <Card.Title class="cardTitle" style={cardTitleStyle}> 
                                 
                                  <AnimatedNumber value={this.state.customerValue} formatValue={this.formatValue} duration="1000"/>+ 
@@ -100,8 +101,8 @@ class WeHave extends Component {
                     <Col xs="auto" >
                         <Card style={cardStyle}>
                             <Card.Body>
-                            <Card.Title class="cardTitle"> <img src="Contentpics/personalised.png" style={imgStyle} alt="" /></Card.Title>
-                            <Card.Title class="cardSubtitle" style={cardSubtitleStyle}>sender ID</Card.Title>
+                            <Card.Title class="cardTitle"> <img src="Contentpics/SenderID.png" style={imgStyle} alt="" /></Card.Title>
+                            <Card.Title class="cardSubtitle" style={cardSubtitleStyle}>Sender ID</Card.Title>
                                 <Card.Title class="cardTitle" style={cardTitleStyle}><AnimatedNumber value={this.state.senderId} formatValue={this.formatValue} duration="1000" />K</Card.Title>
                                
                                
@@ -111,7 +112,7 @@ class WeHave extends Component {
                     <Col xs="auto" >
                         <Card style={cardStyle}>
                             <Card.Body>
-                            <Card.Title class="cardTitle"> <img src="Contentpics/FastMessage.jpg" style={imgStyle} alt="" /></Card.Title>
+                            <Card.Title class="cardTitle"> <img src="Contentpics/MessageSent.png" style={imgStyle} alt="" /></Card.Title>
                             <Card.Title class="cardSubtitle" style={cardSubtitleStyle}>Messages Sent</Card.Title>
                                 <Card.Title class="cardTitle" style={cardTitleStyle}><AnimatedNumber value={this.state.messageSent} formatValue={this.formatValue} duration="1000" /></Card.Title>
                             </Card.Body>
@@ -121,7 +122,7 @@ class WeHave extends Component {
                     <Col xs="auto" >
                         <Card style={cardStyle}>
                             <Card.Body>
-                            <Card.Title class="cardTitle"> <img src="Contentpics/FastMessage.jpg" style={imgStyle} alt="" /></Card.Title>
+                            <Card.Title class="cardTitle"> <img src="Contentpics/MessageDelivered.png" style={imgStyle} alt="" /></Card.Title>
                             <Card.Title class="cardSubtitle" style={cardSubtitleStyle}>Messages Delivered</Card.Title>
                                 <Card.Title class="cardTitle" style={cardTitleStyle}><AnimatedNumber value={this.state.messageReceived} formatValue={this.formatValue} duration="1000" /></Card.Title>
                             </Card.Body>

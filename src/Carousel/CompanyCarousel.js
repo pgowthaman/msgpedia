@@ -24,7 +24,6 @@ class CompanyCarousel extends Component {
     }
 
     render() {
-        const { windowWidth } = this.state;
         let mobDisplay = "none";
         let windowSmall = "none";
         let windowLarge = "none";

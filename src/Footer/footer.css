@@ -2,6 +2,7 @@ footer{
     font-family: Ubuntu;
     background-color: #190138;
     color: honeydew;
+    text-align: left;
 }
 
 #footer-link{
@@ -11,3 +12,9 @@ footer{
 #footer{
     padding-top: 20px;
 }
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }

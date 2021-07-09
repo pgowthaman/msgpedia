@@ -22,7 +22,8 @@ const SpecialFeatures = () => {
         fontFamily: "Ubuntu",
         paddingBottom: "20px",
         marginBottom: "20px",
-        marginRight: "20px"
+        marginRight: "20px",
+        textAlign : "center"
     }
 
     let cardTitleStyle = {
@@ -31,7 +32,8 @@ const SpecialFeatures = () => {
     }
 
     let cardtextStyle = {
-        fontSize: "15px"
+        fontSize: "15px",
+        textAlign : "justify"
     }
 
     let imgStyle = {
@@ -70,7 +72,7 @@ const SpecialFeatures = () => {
                     <Col xs="auto" data-aos="flip-left">
                         <Card style={cardStyle}>
                             <Card.Body>
-                            <Card.Title class="cardTitle"> <img src="Contentpics/FastMessage.jpg" style={imgStyle} alt="" /></Card.Title>
+                            <Card.Title class="cardTitle"> <img src="Contentpics/FastMessage.png" style={imgStyle} alt="" /></Card.Title>
                                 <Card.Title class="cardTitle" style={cardTitleStyle}>Fast Messages</Card.Title>
                                 <ListGroup className="list-group-flush">
                                     <ListGroupItem style={cardtextStyle}>Instant delivery up to 2-5 sec. Also track the delivery of your individual and group messaging report with live status, according to TRAI guidelines</ListGroupItem>
@@ -84,7 +86,7 @@ const SpecialFeatures = () => {
                     <Col xs="auto" data-aos="flip-left">
                         <Card style={cardStyle}>
                             <Card.Body>
-                            <Card.Title class="cardTitle"> <img src="Contentpics/payUp.png" style={imgStyle} alt="" /></Card.Title>
+                            <Card.Title class="cardTitle"> <img src="Contentpics/payAsYouGo.png" style={imgStyle} alt="" /></Card.Title>
                                 <Card.Title class="cardTitle" style={cardTitleStyle}>Pay As You Go</Card.Title>
                                 <ListGroup className="list-group-flush">
                                     <ListGroupItem style={cardtextStyle}>Clear, Honest Competitive pricing with zero hidden charges. NO SETUP Fee Involved, buy SMS Credits and access our application & APIs is free forever.</ListGroupItem>

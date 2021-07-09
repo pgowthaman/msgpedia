@@ -6,11 +6,19 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 
-const ChooseUs = () => {
+class ChooseUs extends Component {
+    constructor(props){
+        super(props)
+    }
 
-    useEffect ( () =>{
-           Aos.init({});
-   },[]);
+    componentDidMount(){
+        Aos.init({
+            duration: 1000,
+        });
+    }
+
+   render(){
+           
 
         let subheaderStyle = {
             paddingTop: '30px',
@@ -22,17 +30,24 @@ const ChooseUs = () => {
             fontFamily: "Ubuntu",
             paddingBottom: "20px",
             marginBottom: "20px",
-            borderColor: "#FF7700",
-            marginRight: "20px"
+            marginRight: "20px",
+            textAlign : "center"
         }
 
         let cardTitleStyle = {
-            fontSize: "25px",
+            fontSize: "22px",
             paddingBottom: "10px"
         }
 
         let cardtextStyle = {
-            fontSize: "15px"
+            fontSize: "15px",
+            textAlign : "justify"
+        }
+
+        let dataAos;
+
+        if("mobile"==this.props.displayType || "smallWindow"==this.props.displayType){
+            dataAos = "fade"
         }
 
         return (
@@ -42,7 +57,7 @@ const ChooseUs = () => {
                 <Container >
                     <h1 class="subHeader" style={subheaderStyle} data-aos="fade" >Why <span class="highlighted-text">Choose</span> Us?</h1>
                     <Row className="justify-content-center align-items-center">
-                        <Col xs="auto" data-aos="slide-right">
+                        <Col xs="auto" data-aos={dataAos ? 'fade' : 'fade-right'}>
                                 <Card style={cardStyle}>
                                     <Card.Body>
                                         <Card.Title class="cardTitle" style={cardTitleStyle}>Local & Global</Card.Title>
@@ -53,10 +68,10 @@ const ChooseUs = () => {
                                     </Card.Body>
                                 </Card>
                         </Col>
-                        <Col xs="auto" data-aos="fade-up">
+                        <Col xs="auto" data-aos="fade">
                             <Card style={cardStyle}>
                                 <Card.Body>
-                                    <Card.Title class="cardTitle" style={cardTitleStyle}>Corporate & Enterprise Solutions</Card.Title>
+                                    <Card.Title class="cardTitle" style={cardTitleStyle}>Corporate & Enterprise</Card.Title>
                                     {/* <Card.Title class="cardSubtitile">BASIC</Card.Title> */}
                                     <Card.Text style={cardtextStyle}>
                                         We empower start-ups, small to medium businesses and global enterprises to connect, interact and transact across India and Globally.
@@ -64,7 +79,7 @@ const ChooseUs = () => {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs="auto" data-aos="slide-left">
+                        <Col xs="auto" data-aos={dataAos ? 'fade' : 'fade-left'}>
                             <Card style={cardStyle}>
                                 <Card.Body>
                                     <Card.Title class="cardTitle" style={cardTitleStyle}>Wholesale & Retail</Card.Title>
@@ -81,4 +96,5 @@ const ChooseUs = () => {
             </>
         )
     }
+}
 export default ChooseUs;

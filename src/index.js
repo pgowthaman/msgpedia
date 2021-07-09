@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Body from './Body/Body';
-import CompanyCarousel from './Carousel/CompanyCarousel';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { FloatingWhatsApp } from 'react-floating-whatsapp-button'
+import 'react-floating-whatsapp-button/dist/index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-  <Header />
+   <Header /> 
   <Footer />
+  <FloatingWhatsApp phone ={+919688504775} size="60px" autoOpenTimeout="20000"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
